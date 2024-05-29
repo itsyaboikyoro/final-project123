@@ -6,8 +6,8 @@ class SeRisChoicePayroll:
     def __init__(self, window):
         self.window = window
         self.window.title("Se-ri's Choice Payroll")
-
-        frame = Frame(self.window, width=850, height=800, bg='#d3d3d3')
+#changed the background into blue
+        frame = Frame(self.window, width=850, height=800, bg='blue')
         frame.place(x=1, y=1)
 
         self.create_heading(frame)
