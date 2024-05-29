@@ -16,7 +16,7 @@ class SignUpApp:
         frame.place(relx=0.5, rely=0.5, anchor='center', width=350, height=300)
 
         # Title
-        label_title = tk.Label(frame, text="Sign Up", bg="#000000", fg="white", font=("Arial", 18, 'bold'))
+        label_title = tk.Label(frame, text="Sign Up", bg="#000000", fg="black", font=("Arial", 18, 'bold'))
         label_title.pack(pady=10)
 
         # Username Entry
