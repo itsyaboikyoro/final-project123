@@ -13,7 +13,7 @@ class LoginApp:
 
     def create_login_form(self):
         # Create a frame for the login form
-        frame = tk.Frame(self.root, bg='#000000', bd=10)
+        frame = tk.Frame(self.root, bg='#FFFFFF', bd=10)
         frame.place(relx=0.5, rely=0.5, anchor='center', width=350, height=300)
 
         # Title
