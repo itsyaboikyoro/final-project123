@@ -531,7 +531,7 @@ class SeRisChoicePayroll:
         button6.place(x=755, y=650)
 
         button7 = Button(window, width=10, text="RETURN", bg='#FFFFFF', fg='black', font=("Calibri", 10), command=self.return_button)
-        button7.place(x=587, y=675)
+        button7.place(x=587, y=685)
 
         self.window.geometry("850x800")
         self.window.mainloop()
