@@ -3,8 +3,6 @@ import sqlite3
 from tkinter import messagebox
 class LoginApp:
 
-#tanginamoclarencewilliamseparo
-
     def __init__(self, root):
         self.root = root
         self.root.title("Login Page")
