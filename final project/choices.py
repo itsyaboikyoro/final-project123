@@ -3,7 +3,7 @@ import tkinter as tk
 def main():
     window = tk.Tk()
     window.geometry("360x240")
-
+#abcde
     def emp_info_clicked():
         window.destroy()
         import emp_info
